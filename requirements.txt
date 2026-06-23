@@ -1,0 +1,2 @@
+pydantic==2.8.2
+playwright==1.54.0
