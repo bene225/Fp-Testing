@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from urllib.parse import urlparse
 
-from .config import CrawlerConfig, SiteTarget, ThirdPartyCookieMode
-from .models import CrawlResult
+from config import CrawlerConfig, SiteTarget, ThirdPartyCookieMode
+from models import CrawlResult
 
 
 def analyze_historical_snapshot(

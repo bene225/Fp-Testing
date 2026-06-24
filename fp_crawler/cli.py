@@ -3,9 +3,9 @@ from __future__ import annotations
 import argparse
 import asyncio
 
-from .config import ThirdPartyCookieMode, load_config
-from .output import write_jsonl
-from .playwright_program import run_live_crawl
+from config import ThirdPartyCookieMode, load_config
+from output import write_jsonl
+from playwright_program import run_live_crawl
 
 
 def build_parser() -> argparse.ArgumentParser:

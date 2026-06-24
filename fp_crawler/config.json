@@ -1,0 +1,12 @@
+{
+  "targets": [
+    { "url": "https://example.com", "category": "news_politics" },
+    { "url": "https://shop.example", "category": "shopping" },
+    { "url": "https://portal.example", "category": "functional_control" }
+  ],
+  "known_fingerprinting_domains": ["fingerprintjs.com", "fingerprint.com"],
+  "headless": true,
+  "timeout_ms": 25000,
+  "settle_wait_ms": 4000,
+  "max_retries": 2
+}

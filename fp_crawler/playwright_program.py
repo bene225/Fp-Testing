@@ -4,8 +4,8 @@ import asyncio
 from collections.abc import Callable
 from urllib.parse import urlparse
 
-from .config import CrawlerConfig, SiteTarget, ThirdPartyCookieMode
-from .models import CrawlResult, PhaseMetrics, PhaseName
+from config import CrawlerConfig, SiteTarget, ThirdPartyCookieMode
+from models import CrawlResult, PhaseMetrics, PhaseName
 
 # Monkey-Patch-Skript:
 # Wird in jede Seite injiziert, bevor diese lädt. Es überschreibt (hookt) bestimmte

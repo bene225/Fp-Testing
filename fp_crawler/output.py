@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from .models import CrawlResult
+from models import CrawlResult
 
 
 def write_jsonl(results: list[CrawlResult], output_path: str | Path) -> None:
